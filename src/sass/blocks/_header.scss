@@ -1,0 +1,74 @@
+.header{
+    background-image: url(../img/main_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 100vh;
+    padding-top: 20px;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__list{
+        list-style: none;
+        color: #fff;
+        display: flex;
+        font-weight: 300;
+        gap: 70px;
+        font-weight: 200;
+        font-size: 23px;
+        line-height: 23px;
+    }
+    &__subtitle{
+        font-weight: 800;
+        padding-top: 200px;
+        text-align: center;
+        color: #868686;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    &__title{
+        margin: 0 auto;
+        width: 1071px;
+        font-weight: 600;
+        font-size: 140px;
+        line-height: 93.5%;
+        text-align: center;
+        background: linear-gradient(98.82deg, #30E8F3 1.78%, #05FF00 129.09%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        mix-blend-mode: normal;
+        text-shadow: 0px 0px 250px rgba(0, 102, 255, 0.54);
+        font-family: 'Roboto', sans-serif;
+    }
+    &__buttons{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    &__item{
+        transition: 0.4s all; 
+
+    }
+    &__item:hover{
+        color: $blue;
+    }
+}
+
+.logo{
+    &__link{
+        background: linear-gradient(98.82deg, #30E8F3 1.78%, #05FF00 129.09%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 72px;
+    }
+}

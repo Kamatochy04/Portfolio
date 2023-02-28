@@ -1,0 +1,111 @@
+.services{
+    height: 100vh;
+    &__wissens{
+        margin-top: 40px;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 100px 10px;
+    }
+    &__inner{
+        margin-top: 100px;
+        display: flex;
+        gap: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+    &__block{
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__title{
+        width: 200px;
+    }
+    &__text{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: $graite;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+    }
+    &__bar{
+        width: 83%;
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+        background: $blue;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    &__input{
+        &-html{
+            display: flex;
+            gap: 20px;
+            width: 230px;
+            height: 14px;
+            border-radius: 10px;
+            background: #747474;
+        }
+    }
+    &__titles{
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 80px;
+    }
+}
+
+.sercle{
+    width: 18px;
+    height: 18px;
+    background: $blue;
+    border-radius: 10px;
+    margin-right: -3px;
+ 
+    box-shadow: 0px 0px 12px 2px $blue;
+}
+
+.html{
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    font-size: 20px;
+    align-items: center;
+    span{
+        font-size: 16px;
+        color: $graite;
+    }
+}
+
+.GitHub{
+    width: 77%;
+    height: 100%;
+}
+
+.react{
+    width: 39%;
+    height: 100%;
+}
+
+.js{
+    width: 45%;
+    height: 100%;
+}
+
+.figma{
+    width: 55%;
+    height: 100%;
+}
+
+.css{
+    width: 93%;
+    height: 100%;
+}
