@@ -1,13 +1,13 @@
 .services{
-    height: 100vh;
+    padding: 100px 0;
     &__wissens{
         margin-top: 40px;
         display: grid;
         align-items: center;
         justify-items: center;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 100px 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 40px 10px;
     }
     &__inner{
         margin-top: 100px;
@@ -61,6 +61,24 @@
         font-size: 25px;
         margin-top: 80px;
     }
+    &__ihner{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__chkala{
+        width: 500px;
+        height: 10px;
+        background: #333333;
+    }
+    &__txt{
+        color: #fff;
+        font-size: 20px;
+    }
+    &__procent{
+        color: $graite;
+    }
 }
 
 .sercle{
@@ -68,44 +86,55 @@
     height: 18px;
     background: $blue;
     border-radius: 10px;
-    margin-right: -3px;
  
     box-shadow: 0px 0px 12px 2px $blue;
 }
 
-.html{
+.flex{
     display: flex;
-    gap: 20px;
-    color: #fff;
-    font-size: 20px;
     align-items: center;
-    span{
-        font-size: 16px;
-        color: $graite;
-    }
+    justify-content: space-between;
+    flex-direction: row-reverse;
 }
 
-.GitHub{
-    width: 77%;
+.html{
+    width: 80%;
     height: 100%;
-}
-
-.react{
-    width: 39%;
-    height: 100%;
-}
-
-.js{
-    width: 45%;
-    height: 100%;
-}
-
-.figma{
-    width: 55%;
-    height: 100%;
+    background: $blue;
+    border-radius: 0 10px 10px 0;
 }
 
 .css{
-    width: 93%;
+    width: 84%;
     height: 100%;
+    background: $blue;
+    border-radius: 0 10px 10px 0;
+}
+
+.js{
+    width: 58%;
+    height: 100%;
+    background: $blue;
+    border-radius: 0 10px 10px 0;
+}
+
+.react{
+    width: 54%;
+    height: 100%;
+    background: $blue;
+    border-radius: 0 10px 10px 0;
+}
+
+.git{
+    width: 90%;
+    height: 100%;
+    background: $blue;
+    border-radius: 0 10px 10px 0;
+}
+
+.figma{
+    width: 64%;
+    height: 100%;
+    background: $blue;
+    border-radius: 0 10px 10px 0;
 }

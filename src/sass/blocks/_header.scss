@@ -10,7 +10,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100%;
+        margin-top: 8%;
     }
     &__wrapper{
         display: flex;
@@ -76,7 +76,7 @@
         text-fill-color: transparent;
         font-weight: 400;
         font-size: 72px;
-        line-height: 72px;
+        line-height: 32px;
     }
 }
 
