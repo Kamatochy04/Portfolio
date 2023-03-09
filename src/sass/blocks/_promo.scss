@@ -1,59 +1,56 @@
 .promo{
-    background-image: url(../img/promo_bg.png);
-    background-position: right center;
-    background-repeat: no-repeat;
     padding: 100px 0;
+    background: #d6d6d610;
     &__inner{
-        display: flex;
-        justify-content: center;
-        gap: 140px;
-        margin-top: 100px;
-    }
-    &__img{   
-        width: 380px;
-        height: 450px;
-        background-color: none;
-        border: 9px solid rgba(6, 226, 255, 0.904);
-    }
-    &__descr{
-        width: 530px;
-    }
-    &__title{
-        font-size: 35px;
-        color: #fff;
-        font-weight:600;
-    }
-    &__text{
-        display: flex;
         align-items: center;
-        font-size: 22px;
-        font-weight: 300;
-        color:$graite;
-        line-height: 40px;
-        margin-top: 50px;
-        margin-bottom: 20px;
-        &::before{
-            content: '';
-            display: block;
-            height: 180px;
-            width: 2px;
-            border-left: 3px solid $blue;
-            margin-right: 20px;
+        display: flex;
+        margin-top: 100px;
+        margin-top: 80px;
+        gap: 5%;
+        margin-left: 200px;
+    }
+    &__img{
+        width: 500px;
+        height: 500px;
+        img{
+            width: 100%;
+            height: 100%;
         }
     }
-    
-    &__photo{
-        transform: translate(-60px, 70px);
-        width: 100%;
-        height: 100%;
-
-    }
-    &__list{
-        color: $blue;
-        font-size: 20px;
+    &__descr{
+        max-width: 700px;
         display: flex;
         flex-direction: column;
-        gap: 10px;
-        margin-bottom: 40px;
+        justify-content: center;
+        gap: 40px;
     }
+    &__hello{
+        span{
+            color: $blue;
+        }
+        font-size: 24px;
+    }
+    &__text{
+        max-width: 600px;
+        font-size: 17px;
+        line-height: 29px;
+        color: $graite;
+    }
+    &__inf{
+        width: 100%;
+        padding: 30px 30px;
+        border: 2px solid $blue;
+        display: flex;
+        align-items: center;
+        gap: 90px;
+    }
+    &__list{
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+        span{
+            color: $blue;
+        }
+    }
+
 }

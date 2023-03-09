@@ -8,6 +8,10 @@
 @import 'blocks/skills';
 @import 'blocks/services';
 @import 'blocks/contact';
+@import 'blocks/project';
+@import 'blocks/media';
+@import 'blocks/hamburger';
+@import 'blocks/footer';
 
 .container{
     max-width: 1580px;
@@ -24,7 +28,11 @@ body, h1, h2, h3, ul, li, p{
     margin: 0;
     padding: 0;
     list-style: none;
+    color: #fff;
 
+}
+h1{
+    z-index: 0;
 }
 
 *{
@@ -33,7 +41,7 @@ body, h1, h2, h3, ul, li, p{
 
 body{
     font-family: 'Rubik', sans-serif;
-    background-color: #040D22;
+    background-color: #000000f3;
 }
 
 :active, :hover, :focus {

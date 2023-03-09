@@ -1,0 +1,101 @@
+@media (max-width:1225px) {
+    .skills{
+        &__inner{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .services{
+        &__chkala{
+            width: 350px;
+        }
+        &__inner{
+            gap: 150px;
+            img{
+                max-width: 400px;
+            }
+        }
+    }
+
+}
+
+@media (max-width:1024px){
+    .header{
+        &__title{
+            font-size: 110px;
+        }
+        &__list{
+            font-size: 15px;
+        }
+    }
+    .services{
+        &__inner{
+            gap: 30px;
+        }
+    }
+    .contact{
+        &__inner{
+            gap: 100px;
+        }
+    }
+}
+
+@media (max-width: 856px){
+    .header{
+        &__list{
+            display: none;
+        }
+        &__wrapper{
+            .logo{
+                display: none;
+            } 
+            .none{
+                display: none;
+            }
+        }
+        .hamburger{
+            display: flex;
+        }
+    }
+    .contact{
+        &__form{
+            height: 500px;
+            width: 350px;
+        }
+    }
+    .services{
+        &__inner{
+            flex-direction: column-reverse;;
+        }
+        &__text{
+            margin-top: 20px;
+            text-align: center;
+        }
+        &__title{
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .services{
+        &__wissens{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .header{
+        &__title{
+            font-size: 100px;
+        }
+        &__subtitle{
+            font-size: 18px;
+        }
+        &__buttons{
+            margin-top: 60px;
+        }
+        &__inner{
+            margin-top: 150px;
+        }
+    }
+}

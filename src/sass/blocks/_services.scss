@@ -1,5 +1,7 @@
 .services{
     padding: 100px 0;
+    background: #d6d6d610;
+
     &__wissens{
         margin-top: 40px;
         display: grid;
@@ -16,13 +18,19 @@
         align-items: center;
         justify-content: center;
     }
+    &__img{
+        height: 350px;
+        width: 500px;
+
+    }
     &__block{
-        width: 450px;
+        max-width: 450px;
         display: flex;
         flex-direction: column;
     }
     &__title{
         width: 200px;
+        color: #ffffff;
     }
     &__text{
         margin-top: 50px;

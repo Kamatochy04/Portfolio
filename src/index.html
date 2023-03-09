@@ -24,17 +24,37 @@
                     <li class="header__item"><a href="#" class="header__link">Project</a></li>
                     <li class="header__item"><a href="#" class="header__link">Contact</a></li>
                 </ul>
-                <div class="icons">
+                <div class="icons none">
                     <a href="#"><img src="icons/inst.png" alt="insta" class="icon"></a>
                     <a href="#"><img src="icons/tviter.png" alt="tviter" class="icon"></a>
                     <a href="#"><img src="icons/link.png" alt="link" class="icon"></a>
+                </div>
+
+                <div class="hamburger">
+                    <div class="hamburger__lines ">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>  
+                  <div class=" hamburger__items ">
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Skill-Set</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <div class="icons">
+                        <a href="#"><img src="icons/inst.png" alt="insta" class="icon"></a>
+                        <a href="#"><img src="icons/tviter.png" alt="tviter" class="icon"></a>
+                        <a href="#"><img src="icons/link.png" alt="link" class="icon"></a>
+                    </div>
+                  </div>
                 </div>
             </div> 
             <div class="header__inner">
                 <div class="header__subtitle">
                     Hello
                 </div>
-                <h1 class="header__title" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+                <h1 class="header__title" >
                     I’m a front-end developer 
                 </h1>
                 <div class="header__buttons">
@@ -51,25 +71,35 @@
             <h2 class="title">
                 About me
             </h2>
-            <div class="promo__inner">
+            <div class="promo__inner">    
                 <div class="promo__img">
-                    <img src="img/mane_face.jpg" alt="photo" class="promo__photo">
+                    <img src="img/it's me.jpg" alt="me">
                 </div>
                 <div class="promo__descr">
-                    <h3 class="promo__title">About me</h3>
-                    <p class="promo__text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit maxime impedit aliquid alias? Sequi pariatur nam sed fugit aliquam voluptas eos, voluptatem nisi quam eaque aliquid possimus a adipisci ipsum?
-                    </p>
-                    <ul class="promo__list">
-                        <li class="promo__item"><span>Name:</span></li>
-                        <li class="promo__item"><span>Age:</span></li>
-                        <li class="promo__item"><span>Number:</span></li>
-                        <li class="promo__item"><span>Email:</span></li>
-                        <li class="promo__item"><span>Hobby:</span></li>
-                    </ul>
-                    <button class="button">
-                        Contact
+                    <h3 class="promo__hello">
+                        Hi, I am Andrei  <span>Web Developer</span>
+                    </h3>
+                    <div class="promo__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta natus facere, numquam facilis possimus laudantium quaerat iste! Optio a ex culpa quaerat aperiam itaque distinctio aliquam repudiandae! Officiis, obcaecati hic!
+                    </div>
+                    <div class="promo__inf">
+                        <ul class="promo__list">
+                            <li class="promo__item"><span>Name:</span> Andrey Waliuk</li>
+                            <li class="promo__item"><span>Agg:</span>  18 years old </li>
+                            <li class="promo__item"><span>Experience:</span> 2 years</li>
+                        </ul>
+                        <ul class="promo__list">
+                            <li class="promo__item"><span>Address:</span> Grodno, Belarus</li>
+                            <li class="promo__item"><span>Phone:</span> +375 33 383 59 57</li>
+                            <li class="promo__item"><span>7</span>3</li>
+                        </ul>
+                    </div>
+                    <button class="button">                 
+                        download resume
                     </button>
+                </div>
+                <div class="promo__hobby">
+
                 </div>
             </div>
         </div>
@@ -144,14 +174,17 @@
             </h2>
             <div class="services__inner">
                 <div class="services__block">
-                    <img src="icons/upwork 1.svg" alt="upWork" class="services__title">
+                    <img src="img/vifer.png" alt="fiver" class="services__title">
                     <p class="services__text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, corporis necessitatibus nam voluptate voluptatum est voluptatibus eius 
                     </p>
                     <div class="services__wrapper">
-                        <button class="button">
-                            UpWork
-                        </button>
+                        <a href="https://www.fiverr.com/users/andrey_w/seller_dashboard">
+                            <button class="button">
+                                fiver
+                             </button>
+                        </a>
+
                         <div class="icons">
                             <a href="#"><img src="icons/inst.png" alt="insta" class="icon"></a>
                             <a href="#"><img src="icons/tviter.png" alt="tviter" class="icon"></a>
@@ -159,7 +192,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="https://static.mk.ru/upload/entities/2022/05/13/23/articles/detailPicture/7a/1f/e6/84/e8c117d6e81e323ff8e23cc85e4b0dea.jpg" alt="" class="services__img">
+                <img class="services__img" src="img/fiver.avif">
             </div>
             <div class="services__wissens">
                 <div class="services__box">
@@ -225,7 +258,7 @@
                                 <div class="sercle"></div>
                             </div>
                         </div>
-                        <p class="services__procent">74%</p>
+                        <p class="services__procent">84%</p>
                     </div>
                 </div>
                     
@@ -240,9 +273,9 @@
             </h2>
             <div class="contact__inner">
                 <div class="contact__media">
-                    <div class="logo">
+                    <!-- <div class="logo">
                         <a href="#" class="logo__link contact__logo">VAV</a>
-                    </div>
+                    </div> -->
                     <div class="contact__box">
                         <div class="contact__tell">
                             <div class="contact__square">
@@ -260,7 +293,7 @@
                             <div class="contact__square">
                                 <img src="icons/mail.png" alt="mail">
                             </div>
-                            <a href="#" class="contact__text">andreyrubik@mail.ru</a>
+                            <a href="#" class="contact__text">andreii.rubik@mail.ru</a>
                         </div>
                     </div>
                     
@@ -280,6 +313,38 @@
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="container">
+            <h2 class="footer__title">Andrei</h2>
+            <div class="footer__wrapper">
+                <div class="footer__item">
+                    <a href="">
+                        <img src="icons/GitHub.png" alt="social" class="footer__social">
+                    </a>
+                </div>
+                <div class="footer__item">
+                    <a href="">
+                        <img src="icons/GitHub.png" alt="social" class="footer__social">
+                    </a>
+                </div>
+                <div class="footer__item">
+                    <a href="">
+                        <img src="icons/GitHub.png" alt="social" class="footer__social">
+                    </a>
+                </div>
+                <div class="footer__item">
+                    <a href="">
+                        <img src="icons/GitHub.png" alt="social" class="footer__social">
+                    </a>
+                </div>
+                <div class="footer__item">
+                    <a href="">
+                        <img src="icons/GitHub.png" alt="social" class="footer__social">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
 </body>

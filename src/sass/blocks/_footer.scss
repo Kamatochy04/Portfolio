@@ -1,0 +1,36 @@
+.footer{
+    padding: 70px 0;
+    background: #d6d6d610;
+    &__wrapper{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 60px;
+        background: #000;
+        transform: rotate(45deg);
+        border-radius: 10px;
+        img{
+            transform: rotate(-45deg);
+            width: 60%;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    &__title{
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
