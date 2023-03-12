@@ -1,71 +1,38 @@
 .contact{
-    padding: 100px 0;
-    &__inner{
-        margin-top: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 300px;
-    }
+    padding: 100px 0 0 0;
     &__form{
-        width: 450px;
-        height: 550px;
-        border: 5px solid $blue;
-        border-radius: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
+        max-width: 1000px;
+        margin: 100px auto 40px auto;
     }
-    &__media{
+    &__inner{
         display: flex;
-        flex-direction: column;
-        gap: 70px;
+        gap: 40px;
+    }
+    &__name{
+        background: none;
+        border-bottom:2px solid $blue;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding: 4px 6px;
+        font-size: 20px;
+        width: 48%;
+        color: white;
     }
     &__text{
-        font-size: 20px;
-        color: #fff;
-    }
-    &__tell{
-        display: flex;
-        align-items: center;
-        gap: 30px;
-    }
-    &__square{
-        width: 60px;
-        height: 60px;
-        border-radius: 8px;
-        background: $blue;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        img{
-            width: 60%;
-            height: 60%;
-        }
-    }
-    &__box{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    &__logo{
-        font-size: 110px;
-    }
-    &__input{
-        font-weight: 100;
-        border-top: none;
-        border-right: none;
-        border-left: none;
-        border-bottom: 2px solid $blue;
+        height: 300px;
+        width: 100%;
+        margin-top: 20px;
         background: none;
-        padding: 10px 2px;
-        color: #fff;
+        border-bottom:2px solid $blue;
+        border-top: none;
+        border-left: none;
+        border-right: none;
         font-size: 20px;
+        color: white;
     }
-    &__title{
-        color: #fff;
-        font-size: 30px;
+    &__button{
+        display: block;
+        margin: 30px auto 0 auto;
     }
 }

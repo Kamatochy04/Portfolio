@@ -1,8 +1,7 @@
 .footer{
-    padding: 70px 0;
-    background: #d6d6d610;
     &__wrapper{
-        margin-top: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -14,7 +13,7 @@
         justify-content: center;
         height: 60px;
         width: 60px;
-        background: #000;
+        background:  #d6d6d610;
         transform: rotate(45deg);
         border-radius: 10px;
         img{
