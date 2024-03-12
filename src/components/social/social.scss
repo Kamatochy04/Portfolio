@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: clamp(30px, 10vw, 50px);
+  &-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: 1px solid $main-color;
+    border-radius: 100%;
+    width: clamp(50px, 5vw, 60px);
+    height: clamp(50px, 5vw, 60px);
+    &:hover {
+      background: $main-color;
+      i {
+        color: $second-color;
+      }
+    }
+
+    i {
+      transition: all 0.5s;
+      color: $main-color;
+      font-size: clamp(20px, 3vw, 27px);
+    }
+  }
+}

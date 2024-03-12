@@ -1,0 +1,7 @@
+.about__img {
+  height: clamp(200px, 50vw, 450px);
+  img {
+    height: 100%;
+    width: auto;
+  }
+}

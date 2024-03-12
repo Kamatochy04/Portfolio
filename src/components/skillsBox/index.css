@@ -1,0 +1,38 @@
+@import "../../styles/variables.scss";
+
+.box {
+  color: #fff;
+}
+
+.box__h4 {
+  color: #00e1ff;
+  font-size: 25px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box__h4::after {
+  content: "";
+  height: 1px;
+  width: 60px;
+  background: #00e1ff;
+}
+
+.box__wrapper {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+}
+
+.box__wrapper span {
+  background: #ffffffd2;
+  padding: 5px 13px;
+  border-radius: 5px;
+  color: #000;
+  font-weight: 500;
+}

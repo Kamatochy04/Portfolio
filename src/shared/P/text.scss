@@ -1,0 +1,35 @@
+.text {
+  color: #ffffff;
+  font-size: clamp(14px, 2vw, 20px);
+  max-width: 700px;
+  &__left {
+    text-align: left;
+  }
+  &__center {
+    text-align: center;
+  }
+  &__right {
+    text-align: right;
+  }
+  &__second {
+    color: #fff;
+    max-width: 700px;
+
+    line-height: clamp(20px, 4vw, 30px);
+    font-size: clamp(12px, 3vw, 20px);
+    &-left {
+      text-align: left;
+    }
+  }
+}
+
+@media (max-width: 1185px) {
+  .text {
+    &__second {
+      width: auto;
+      &-left {
+        text-align: center;
+      }
+    }
+  }
+}

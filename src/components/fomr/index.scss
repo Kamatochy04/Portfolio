@@ -1,0 +1,58 @@
+@import "../../styles/variables.scss";
+
+.form {
+  margin: 0 auto;
+  background: #3e099280;
+  padding: 80px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+
+  border-radius: 15px;
+  &__box {
+    width: 600px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  &__inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__area {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #6462623b;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid $main-color;
+    color: #fff;
+    min-height: 300px;
+    font-size: 17px;
+    resize: none;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    color: #fff;
+    width: auto;
+    &-second {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      color: #fff;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .form {
+    flex-direction: column;
+    max-width: 800px;
+  }
+}

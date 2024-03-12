@@ -1,0 +1,54 @@
+@import "../../styles/variables.scss";
+
+.skills__card {
+  border-radius: 10px;
+  padding: 30px;
+  span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    p {
+      font-size: 35px;
+      font-weight: 600;
+    }
+  }
+  i {
+    font-size: clamp(40px, 10vw, 70px);
+  }
+}
+
+.html-color {
+  color: #ff4500;
+}
+
+.css-color {
+  color: #1e90ff;
+}
+
+.js-color {
+  color: #ffff00;
+}
+
+.react-color {
+  color: #0000ff;
+}
+
+.sass-color {
+  color: #ee82ee;
+}
+
+.git-color {
+  color: #ff4400d8;
+}
+
+.ts-color {
+  color: #00008b;
+}
+
+.nodejs-color {
+  color: #31aa31;
+}
+
+.gitHub-color {
+  color: #dbdbdb;
+}

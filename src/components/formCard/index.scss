@@ -1,0 +1,39 @@
+@import "../../styles/variables.scss";
+.formCard {
+  max-width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  &__text {
+    color: #ffffffec;
+    line-height: 23px;
+  }
+  &__media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 27px;
+    color: $main-color;
+  }
+  span {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    color: #ffffffec;
+    &::before {
+      content: "";
+      height: 1px;
+      width: 160px;
+      background: $main-color;
+    }
+
+    &::after {
+      content: "";
+      height: 1px;
+      width: 160px;
+      background: $main-color;
+    }
+  }
+}

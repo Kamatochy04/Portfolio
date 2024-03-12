@@ -1,0 +1,8 @@
+@import "../../styles/variables.scss";
+
+h1 {
+  color: $main-color;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: clamp(20px, 9vw, 70px);
+}

@@ -1,0 +1,47 @@
+@import "../../styles/variables.scss";
+
+.main {
+  // background: $second-color;
+  // background-image: url("./img/bg.png");
+  // background-repeat: no-repeat;
+  // background-position: center center;
+  // background-size: cover;
+}
+
+.about {
+  // background: $second-color;
+  // background-image: url("./img/bg-2.png");
+  // background-repeat: no-repeat;
+  // background-position: center center;
+  // background-size: cover;
+}
+
+.skills {
+  background: rgba(0, 0, 0, 0.418);
+}
+
+.services {
+  background: $second-color;
+}
+
+.faq {
+  background: rgb(0, 11, 48);
+  background: linear-gradient(
+    283deg,
+    rgba(0, 11, 48, 1) 0%,
+    rgba(154, 0, 255, 1) 100%
+  );
+}
+
+.soft {
+  background: rgb(0, 11, 48);
+  background: linear-gradient(
+    283deg,
+    rgba(0, 11, 48, 1) 0%,
+    rgba(154, 0, 255, 1) 100%
+  );
+}
+
+.services {
+  background: #003d75;
+}

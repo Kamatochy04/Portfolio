@@ -1,0 +1,101 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  background: $second-color;
+  padding: 70px 0;
+  &__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    &:nth-child(3) {
+      opacity: 0;
+    }
+    &:nth-child(4) {
+      opacity: 0;
+    }
+    &-item {
+      display: flex;
+      flex-direction: column;
+      transition: all 0.5s;
+      font-weight: 300;
+      color: #ffffffcb;
+      cursor: pointer;
+      &:nth-child(1) {
+        color: #fff;
+        font-size: 25px;
+        margin-bottom: 15px;
+        font-weight: 600;
+      }
+      &::after {
+        content: "";
+        background: #ffffff;
+        transition: all 0.5s;
+        opacity: 0;
+        // width: 100%;
+        height: 2px;
+      }
+      &:hover::after {
+        opacity: 1;
+      }
+    }
+
+    a {
+      font-size: 18px;
+    }
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    &-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: $main-color;
+      font-size: 20px;
+      i {
+        font-size: 25px;
+      }
+      a {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 1260px) {
+  .footer {
+    &__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      text-align: center;
+      gap: 40px;
+    }
+    &__list {
+      align-items: center;
+      gap: 10px;
+      &:nth-child(3) {
+        display: none;
+      }
+      &:nth-child(4) {
+        display: none;
+      }
+      &-item {
+        text-align: center;
+      }
+    }
+    &__box {
+      align-items: center;
+    }
+  }
+}
